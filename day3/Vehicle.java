@@ -8,7 +8,7 @@ public class Vehicle {
         }
     }
 
-    // Child class
+
     class Car extends Vehicle {
         @Override
         public void wheels() {
@@ -16,7 +16,7 @@ public class Vehicle {
         }
     }
 
-    // Child class
+
     class  Bus extends Vehicle {
         @Override
         public void wheels() {
@@ -24,14 +24,14 @@ public class Vehicle {
         }
     }
 
-    // Main class
+
     class RuntimePolymorphismExample {
         public static void main(String[] args) {
             Vehicle audi = new Car();
             Vehicle volvo= new Bus();
 
-            audi.wheels(); // Calls the overridden method in the Circle class
-            volvo.wheels(); // Calls the overridden method in the Square class
+            audi.wheels();
+            volvo.wheels();
         }
     }
 
