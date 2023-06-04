@@ -1,14 +1,10 @@
 package day3;
 
 public class Vehicle {
-
-
-        public void wheels() {
+    public void wheels() {
 
         }
     }
-
-
     class Car extends Vehicle {
         @Override
         public void wheels() {
