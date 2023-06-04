@@ -1,4 +1,4 @@
-package instancevariable;
+package instance;
 
 class Parent {
     protected int parentVariable;

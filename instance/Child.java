@@ -1,4 +1,4 @@
-package instancevariable;
+package instance;
 
 class Child extends Parent {
     public int childVariable;
