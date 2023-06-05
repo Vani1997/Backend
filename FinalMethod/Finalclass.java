@@ -1,13 +1,14 @@
 package FinalMethod;
 
-
-
-
 final class FinalClass {
-    final int finalVariable = 10;
+   protected int finalVariable = 10;
 
-    final void finalMethod() {
-        System.out.println("This is a final method.");
+    protected int finalMethod() {
+       return finalVariable;
+    }
+    public static void main(String args[]) {
+        FinalClass f = new FinalClass();
+        System.out.println("This is a final method  "  + f.finalMethod());
     }
 }
 
