@@ -1,7 +1,5 @@
 package Interface;
 
-public class Interface2 {
-    void method2() {
-
-    }
+public interface Interface2 {
+    void method2();
 }
