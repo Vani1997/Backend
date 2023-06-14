@@ -3,9 +3,11 @@ package day11;
 public class Intconversion {
     static String s;
     public Intconversion(String s){
+
         this.s=s;
     }
-     public  int test(){
+     public  int test()
+     {
         return Integer.parseInt(s);
     }
     public static void main(String[] arg){
